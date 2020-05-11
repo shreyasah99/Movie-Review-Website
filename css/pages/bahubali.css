@@ -1,0 +1,155 @@
+body{
+    font-family: Roboto,sans-serif;
+  }
+  
+  
+  h3{
+    font-family: Grenze;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  #a{
+   border: 5%;
+   border-color: black;
+    position:relative;
+  
+  
+  }
+  
+  .aa{
+    border: 5%;
+    border-color: black;
+    padding: 3% 5% 3%;
+    background-color: #1a2849 ;
+    color: #fff ;
+  }
+  
+  .aa11{
+    height:350px;
+    width : 550px;
+    padding: 0% 10%  5%;
+  }
+  
+  .aa2{
+    padding: 0% 0% 5%;
+    line-height: 20;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+    word-spacing: 5px;
+  }
+  
+  .aa21{
+    font-family: 'Courgette', cursive;
+    padding-bottom: 5%;
+  }
+  
+  #features{
+    padding: 3% 15% ;
+    position:relative ;
+   background-color: #fff;
+  }
+  
+  
+  .feature-box{
+    text-align: center;
+  
+    padding: 5%;
+  }
+  
+  .icon{
+    color: #1f5f8b ;
+    margin-bottom: 1rem;
+  }
+  
+  .icon:hover{
+    color: #1a2849;
+  }
+  
+  
+  /* testimonials */
+  #testimonials{
+    background-color:  #1f5f8b;
+    color: #fff;
+    text-align: center;
+  }
+  .w{
+    padding-left: 10px;
+    padding-top: 15px;
+    height: 320px;
+    width:  320px;
+  }
+  
+  .carousel-item{
+    padding:  4% 15%;
+  }
+  
+  .testimonials-image{
+    margin: 20px;
+  }
+  
+  .testimonial-text{
+    padding-bottom: 10px;
+  }
+  
+  
+  
+  
+  /* pricing */
+  
+  #pricing{
+    padding: 100px;
+    text-align: center;
+  
+  }
+  
+  .pricing-column{
+    padding: 3% 2% ;
+  }
+  
+  
+  /* review */
+  
+  #review{
+      background-color:  #1f5f8b;
+    padding: 100px;
+    text-align: center;
+  
+  }
+  
+  
+  #footer{
+    padding: 5% 15%;
+    text-align: center;
+    background-color: black  ;
+    color: #fff;
+  }
+  
+  .a{
+    margin: 10px 15px;
+  }
+  
+  /* responsive website using css */
+  
+  @media (max-width:1028px) {
+  
+  #title{
+  
+    text-align: center;
+  }
+  
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  }
+  

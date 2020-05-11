@@ -1,0 +1,208 @@
+body{
+  font-family: 'Montserrat-Black', sans-serif;
+
+}
+
+
+
+#title{
+  background-color:   #1a2849 ;
+
+  color: #fff ;
+
+}
+
+.container-fluid{
+  padding: 3% 15% 10%;
+
+
+
+}
+h1{
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1.5;
+  word-spacing: 25px;
+}
+
+h2{
+  font-size: 2rem;
+  font-family: "Montserrat";
+  font-weight: bold;
+  word-spacing: 3px;
+
+
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+p{
+  color: #8f8f8f;
+
+}
+
+/* navigation bar */
+
+.navbar{
+  padding: 0 0 2.5rem;
+
+}
+
+.navbar-brand{
+  font-family: 'Courgette', cursive;
+
+  font-size: 2rem;
+  font-style: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat:Light"
+}
+
+.titleh1{
+  margin: 5% 3% 5% 3% ;
+}
+
+
+/* download buttons */
+.btn{
+  margin: 7% 3% 2% 4%;
+}
+
+/* titleimage */
+.title-image{
+  width:55% ;
+  height: 155% ;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+
+}
+
+/* features section */
+#features{
+  padding: 7% 15% 3%;
+  position:relative ;
+ background-color: #fff;
+}
+
+
+.feature-box{
+  text-align: center;
+
+  padding: 5%;
+}
+
+.icon{
+  color:  #1f5f8b ;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #1a2849;
+}
+
+
+
+
+
+
+/* pricing */
+
+#pricing{
+
+  padding:  20px 100px;
+  text-align: center;
+  background-image: url('../../assets/collage.jpg');
+  background-color:   #1a2849 ;
+}
+
+
+
+.pricing-column{
+  padding: 3% 12% ;
+}
+
+.search-box{
+  position: relative;
+  background: #2f3640;
+  padding: 1%;
+  border-radius: 15px;
+}
+
+.search-btn{
+  color: #e84118 ;
+  float: right;
+  background: #2f3640 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+.search-txt{
+
+  font-size: 30px;
+  transition: 0.4s;
+  width:200px;
+  height: 30px;
+}
+
+
+#news{
+
+  padding:  20px 100px;
+  text-align: center;
+
+}
+
+
+#cta{
+
+  padding: 3% 28%;
+  text-align: center;
+  word-spacing: 10px;
+  background-color: #1a2849;
+  color: white;
+}
+.cta-text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 2.5rem;
+
+}
+
+#footer{
+
+  padding: 5% 15%;
+  text-align: center;
+
+}
+
+.a{
+  margin: 10px 15px;
+}
+
+/* responsive website using css */
+
+@media (max-width:1028px) {
+
+#title{
+  text-align: center;
+}
+
+.title-image{
+  position: static;
+  transform: rotate(0);
+}
+}
